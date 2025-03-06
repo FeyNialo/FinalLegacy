@@ -6,7 +6,8 @@
     <title>Calfreen Map</title>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <style>
-        #map { width: 100vw; height: 100vh; }
+        body { margin: 0; }
+        #map { height: 100vh; width: 100vw; }
     </style>
 </head>
 <body>
@@ -14,28 +15,19 @@
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <script>
-        // Initialize the map
         var map = L.map('map', {
             minZoom: -1.5,
             maxZoom: 1,
-            zoomSnap: 0.5
-        }).setView([1024, 821], -1); // Center based on lat/long
+            zoomSnap: 0.5,
+            crs: L.CRS.Simple
+        });
 
-        // Define image bounds
+        var imageUrl = 'Calfreen.jpg'; // Make sure this image is in /static/
         var imageBounds = [[0, 0], [1536, 2048]];
 
-        // Add custom map image overlay
-        L.imageOverlay('Calfreen.jpg', imageBounds).addTo(map);
-
-        // Fit the map to the image bounds
+        L.imageOverlay(imageUrl, imageBounds).addTo(map);
+        map.setView([1024, 821], -1);
         map.fitBounds(imageBounds);
-
-        // Add scale bar
-        L.control.scale({
-            metric: false,
-            imperial: true,
-            maxWidth: 200
-        }).addTo(map);
     </script>
 </body>
 </html>
