@@ -16,5 +16,5 @@ scale: 0.09328358208955223
 recenter: false  
 darkmode: false
 ```
-[View Interactive Map](../static/map.html)
+[View Interactive Map](../static/map.md)
 
