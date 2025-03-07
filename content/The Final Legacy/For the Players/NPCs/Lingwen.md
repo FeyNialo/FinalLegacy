@@ -1,0 +1,1 @@
+The Harlequin of the Carnival of Flowing Silver, Lingwen is a mysterious figure rarely seen out of her private tent, and when she is, most people don't stick around to take in her pristine features, as trouble sticks to her like flies to shit. 
