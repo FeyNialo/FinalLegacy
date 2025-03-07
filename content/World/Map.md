@@ -16,7 +16,7 @@ Here is the interactive map of **Calfreen**. You can click on locations to view 
         }).setView([0, 0], 1);
 
         // Load the map image
-        var imageUrl = '../static/Calfreen.jpg'; // Make sure the image is accessible
+        var imageUrl = '/static/Calfreen.jpg';
         var imageBounds = [[0, 0], [1536, 2048]];
         L.imageOverlay(imageUrl, imageBounds).addTo(map);
         map.fitBounds(imageBounds);
