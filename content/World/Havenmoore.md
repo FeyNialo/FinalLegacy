@@ -1,1 +1,0 @@
-A small town on the northern edge of Calfreen, this picturesque settlement is the last place where the different races of the continent can mingle without discrimination. Enforced by a diligent town guard, it on the surface seems to be the perfect town.
