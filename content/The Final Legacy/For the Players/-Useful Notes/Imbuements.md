@@ -1,0 +1,1 @@
+The origin of imbuements is a tale lost to the passing of time, but many speculations have pointed to the void, and its tendency to provide powers exotic and formidable 
