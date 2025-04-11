@@ -1,7 +1,7 @@
 
 ```leaflet  
 id: map1
-image: Calfreen.jpg
+image: Calrein.jpg
 bounds: [[0,0], [1536, 2048]] ### Size of the map in px Height_y, Width_x. Ignore 0,0  
 height: 500px
 width: 100%
