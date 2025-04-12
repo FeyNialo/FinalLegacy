@@ -3,6 +3,7 @@ The origin of imbuements is a tale lost to the passing of time, but many specula
 
 ### Knowledge
 Many experiments have been done on imbuements and their users, trying to understand the limits of their powers. The leading expert on this is the Archwizard Abanor, who has spent the past 90 years culminating the sum of the worlds knowledge on the subject, which is written below:
+#### Rarity:
 
 | Rarity Name  | Traditional Equivalent | Example                                          |
 | ------------ | ---------------------- | ------------------------------------------------ |
